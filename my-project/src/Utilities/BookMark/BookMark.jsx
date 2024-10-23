@@ -1,14 +1,14 @@
 import Mark from "./mark";
 import ReadingTime from "./ReadingTime";
 
-const BookMark = ({reading, bkmark  }) => {
+const BookMark = ({ reading, bkmark }) => {
     // console.log(bkmark)
     // console.log(reading)
     return (
         <div>
 
             <div>
-               <ReadingTime reading={reading}></ReadingTime>
+                <ReadingTime reading={reading}></ReadingTime>
             </div>
 
             <hr />
@@ -19,7 +19,7 @@ const BookMark = ({reading, bkmark  }) => {
 
             <div>
                 {
-                    bkmark.map(mark => <Mark key={mark.id} mark={mark}></Mark>)
+                    bkmark.map((mark, i) => <Mark key={i} mark={mark}></Mark>)
                 }
 
             </div>

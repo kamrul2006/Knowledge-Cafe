@@ -29,7 +29,7 @@ const Articles = ({ artical, HandleReading,HandleAddToBookmark}) => {
                 <div className="flex items-center gap-1 lg:gap-3">
                     <p className="text-xs lg:text-sm font-bold text-gray-500">{reading_time} min read</p>
 
-                    <button onClick={() => HandleAddToBookmark(artical)} className="border border-sky-500 p-1 rounded-full"><img src="../../../src/assets/book.png" /></button>
+                    <button onClick={() => HandleAddToBookmark(artical)} className="border border-sky-500 p-1 rounded-full"><img src="../../../public/book.png" /></button>
                 </div>
 
             </div>

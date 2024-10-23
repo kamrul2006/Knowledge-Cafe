@@ -28,7 +28,7 @@ function App() {
         <h1 className="text-xl lg:text-3xl font-bold ">
           Knowledge Cafe
         </h1>
-        <img className='w-10 lg:w-16 border border-red-500 rounded-full' src="./src/assets/profile.png" />
+        <img className='w-10 lg:w-16 border border-red-500 rounded-full' src="../public/profile.png" />
       </div>
       <hr />
 
